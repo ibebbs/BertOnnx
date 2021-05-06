@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BertOnnx": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Sarah lives in London and works for Lloyds Bank.\""
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_name_or_path": "distilbert-base-cased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForTokenClassification"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "finetuning_task": "ner",
+  "hidden_dim": 3072,
+  "id2label": {
+    "0": "O",
+    "1": "B-PER",
+    "2": "I-PER",
+    "3": "B-ORG",
+    "4": "I-ORG",
+    "5": "B-LOC",
+    "6": "I-LOC",
+    "7": "B-MISC",
+    "8": "I-MISC"
+  },
+  "initializer_range": 0.02,
+  "label2id": {
+    "B-LOC": 5,
+    "B-MISC": 7,
+    "B-ORG": 3,
+    "B-PER": 1,
+    "I-LOC": 6,
+    "I-MISC": 8,
+    "I-ORG": 4,
+    "I-PER": 2,
+    "O": 0
+  },
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "output_past": true,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.3.1",
+  "vocab_size": 28996
+}
